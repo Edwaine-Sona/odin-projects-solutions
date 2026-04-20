@@ -116,3 +116,32 @@ main .information{
     text-align: right;
     font-weight: bold;
 }
+
+.call-action{
+    padding: 5% 10%;
+}
+.call-action .blue-area{
+    background: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 5% 7%;
+    border-radius: 6px;
+    color: #e5e7eb;
+}
+.blue-area p{
+    font-size: 11pt;
+}
+.blue-area button{
+    color: #e5e7eb;
+    background: #3882f6;
+    padding: 8px 15px;
+    border: 2px solid #e5e7eb;
+    border-radius: 6px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+.blue-area button:hover{
+    color: #3882f6;
+    background: #fff;
+}
