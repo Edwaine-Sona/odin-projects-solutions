@@ -119,8 +119,11 @@ main .information{
 
 .call-action{
     padding: 5% 10%;
+    display: flex;
+    justify-content: center;
 }
 .call-action .blue-area{
+    width: 100%;
     background: #3882f6;
     display: flex;
     justify-content: space-between;
