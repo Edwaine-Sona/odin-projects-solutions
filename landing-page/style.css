@@ -66,3 +66,39 @@ nav ul li a{
     border-radius: 6px;
     font-weight: 700;
 }
+
+main .information{
+    padding: 5% 10%;
+}
+.information h2{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #1f2937;
+    font-size: 32px;
+}
+.information .cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 20px;
+}
+.information .cards .card{
+    width: 250px;
+    border-radius: 4px;
+    background-color: #fff;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: 0.3s;
+    cursor: pointer;
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 5px;
+
+}
+.card p{
+    padding: 15px;
+    text-align: center;
+}
