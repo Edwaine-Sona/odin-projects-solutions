@@ -145,3 +145,12 @@ main .information{
     color: #3882f6;
     background: #fff;
 }
+
+footer{
+    padding: 30px;
+    background: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
