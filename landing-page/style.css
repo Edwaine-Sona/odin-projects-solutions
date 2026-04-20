@@ -10,7 +10,7 @@ body img{
     max-width: 100%;
 }
 header{
-    padding: 0 15%;
+    padding: 0 10%;
     background: #1f2937;
 }
 header h1{
@@ -20,7 +20,7 @@ header h1{
 header nav{
     display: flex;
     justify-content: space-between;
-    padding: 20px;
+    padding: 20px 0;
 }
 nav ul{
     display: flex;
@@ -32,4 +32,37 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: #e5e7eb;
+}
+
+.hero{
+    display: flex;
+    padding: 50px 0;
+}
+.hero .text-hero{
+    margin-right: 30px;
+    width: 50%;
+}
+.hero .img-hero{
+    width: 50%;
+    display: flex;
+}
+.img-hero img{
+    align-self: center;
+}
+.hero h2{
+    color: #f9faf8;
+    font-size: 40px;
+    margin-bottom: 16px;
+}
+.hero p{
+    color: #e5e7eb;
+    margin-bottom: 16px;
+}
+.hero button{
+    color: #e5e7eb;
+    background: #3882f6;
+    padding: 8px 15px;
+    border: 1px #3882f6;
+    border-radius: 6px;
+    font-weight: 700;
 }
