@@ -6,3 +6,30 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+body img{
+    max-width: 100%;
+}
+header{
+    padding: 0 15%;
+    background: #1f2937;
+}
+header h1{
+    color: #f9faf8;
+    font-size: 24px;
+}
+header nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    gap: 12px;
+}
+nav ul li{
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #e5e7eb;
+}
