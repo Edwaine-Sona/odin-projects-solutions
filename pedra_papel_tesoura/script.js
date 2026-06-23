@@ -1,3 +1,12 @@
+// Human Logic
+
+const getHumanChoice = (choice) =>{
+    choice = prompt("Digite a sua escolha: Pedra, Papel ou Tesoura?")
+
+    return choice
+}
+console.log(getHumanChoice())
+
 // Computer Logic
 
 const getComputerChoice = (choice) =>{
